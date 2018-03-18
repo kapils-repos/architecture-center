@@ -1,6 +1,7 @@
 ---
 title: "Talend Products"
 ---
+# Talend Products
 Talend provides both open source and commercial products for your data integration needs.
 The open source products are:
 - [Open Studio for Data integration][open-studio-data-integration]
