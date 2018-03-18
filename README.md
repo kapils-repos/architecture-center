@@ -1,5 +1,5 @@
 ---
 title: ""
 ---
-# architecture-center
+# Welcome to Talend Architecture Center
 Talend Architecture Center
