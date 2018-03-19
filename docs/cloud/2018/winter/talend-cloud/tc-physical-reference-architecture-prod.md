@@ -11,5 +11,5 @@
 - Code promotion is done via pipelines
 
 <!-- links -->
-[0]: ./../../../resources/images/talend-cloud/tc-prod.png "Talend Integration Cloud for Development"
-[tc-Architecture-prod]: ./../../../resources/templates/visio/tc-architecture/tc-Architecture-6.4-prod.vsd
+[0]: ./images/tc-prod.png "Talend Integration Cloud for Development"
+[tc-Architecture-prod]: ./templates/visio/tc-Architecture-6.4-prod.vsd
