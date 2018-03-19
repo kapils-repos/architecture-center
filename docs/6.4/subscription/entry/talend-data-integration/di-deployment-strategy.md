@@ -20,6 +20,6 @@
 
 <!-- links -->
 [4]: ./../../../resources/images/di-architecture/deployment-di-simple.png "DI Deployment 6.4 - Simple"
-[vd-DI-6.4-prod-Simple]: ./../../../resources/templates/visio/di-architecture/deployment-di-simple.vsd
+[vd-DI-6.4-prod-Simple]: ./../../../resources/templates/visio/di-architecture/deployment-di-simple.vsdx
 [5]: ./../../../resources/images/di-architecture/deployment-di-advanced.png "DI Deployment 6.4 - Advanced"
-[vd-DI-6.4-prod-Advanced]: ./../../../resources/templates/visio/di-architecture/deployment-di-advanced.vsd
+[vd-DI-6.4-prod-Advanced]: ./../../../resources/templates/visio/di-architecture/deployment-di-advanced.vsdx

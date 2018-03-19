@@ -1,11 +1,11 @@
- ### ESB Data Services
+### ESB Data Services
 
 ![alt text][data-services]
 
 #### Key Features:
 - Easy-to-use solution for service enablement
 - Supports the creation of SOAP and REST web services
-- Extends Data Integration 
+- Extends Data Integration
 - Leverages existing connectors
 
 
@@ -17,4 +17,3 @@
 
 
 [data-services]: https://help.talend.com/api/fluidtopicsclient/resources/cwilZlYqLNI9UY3qPWlxyQ/content "Data Services"
-
