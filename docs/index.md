@@ -57,4 +57,4 @@ To learn more about the components and architecture of the commercial products, 
 [talend-mdm-platform]: ./6.4/subscription/platform/talend-mdm-platform/index.md
 [talend-data-fabric]: ./6.4/subscription/platform/talend-data-fabric/index.md
 
-[talend-cloud]: ./commercial/talend-cloud/index.md
+[talend-cloud]: ./cloud/2018/Winter/talend-cloud/index.md
