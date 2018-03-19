@@ -1,7 +1,6 @@
 ---
 title: "Talend Products"
 ---
-# Talend Products
 Talend provides both open source and commercial products for your data integration needs.
 
 ## Open Source Products
@@ -46,14 +45,16 @@ To learn more about the components and architecture of the commercial products, 
 [open-studio-esb]: https://www.talend.com/products/application-integration/esb-open-studio/
 [open-studio-mdm]: https://www.talend.com/products/mdm/mdm-open-studio/
 [data-prepation-free-desktop-edition]: https://www.talend.com/products/data-preparation/data-preparation-free-desktop/
-[talend-big-data-platform]: ./commercial/talend-big-data-platform/index.md
-[talend-big-data]: ./commercial/talend-big-data/index.md
-[talend-data-fabric]: ./commercial/talend-data-fabric/index.md
-[talend-data-integration]: ./commercial/talend-data-integration/index.md
-[talend-data-management-platform]: ./commercial/talend-data-management-platform/index.md
-[talend-data-services-platform]: ./commercial/talend-data-services-platform/index.md
-[talend-esb]: ./commercial/talend-esb/index.md
-[talend-mdm-platform]: ./commercial/talend-mdm-platform/index.md
-[talend-real-time-big-data-platform]: ./commercial/talend-real-time-big-data-platform/index.md
+
+[talend-data-integration]: ./6.4/subscription/entry/talend-data-integration/index.md
+[talend-big-data]: ./6.4/subscription/entry/talend-big-data/index.md
+[talend-esb]: ./6.4/subscription/entry/talend-esb/index.md
+
+[talend-data-management-platform]: ./6.4/subscription/platform/talend-data-management-platform/index.md
+[talend-big-data-platform]: ./6.4/subscription/platform/talend-big-data-platform/index.md
+[talend-data-services-platform]: ./6.4/subscription/platform/talend-data-services-platform/index.md
+[talend-real-time-big-data-platform]: ./6.4/subscription/platform/talend-real-time-big-data-platform/index.md
+[talend-mdm-platform]: ./6.4/subscription/platform/talend-mdm-platform/index.md
+[talend-data-fabric]: ./6.4/subscription/platform/talend-data-fabric/index.md
+
 [talend-cloud]: ./commercial/talend-cloud/index.md
-[0]: ./../resources/images/fabric/fabric.png  "Talend Data Fabric"
