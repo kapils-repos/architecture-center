@@ -4,8 +4,6 @@ The Subversion (SVN) or Git version control tools are used as repositories to ce
 
 Read the [Why Git and not Subversion?](#Why-Git-and-not-Subversion) section to understand why Talend recommends using Git over Subversion.
 
-We recommend you to store several projects per repository, simply in order not to have too many repositories to deal with. However you can choose to store only one project per Git or SVN repository, if you prefer so.
-
 ## GIT
 Git was added to Talend fromm  v6.1 and it follows the same workflow as SVN – no advanced GIT functions supported. From
 6.2 onwards provides a full GIT workflow (GIT local mode, GIT merge) – making it the preferred choice over SVN. Gitflow and Feature Branch workflows supported along with Tagging and branching as part of SDLC.
