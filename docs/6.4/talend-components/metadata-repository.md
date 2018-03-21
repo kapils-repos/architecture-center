@@ -2,7 +2,7 @@
 
 The Subversion (SVN) or Git version control tools are used as repositories to centralize all project metadata like Jobs and Business Models shared between different end-users, and accessible from the Talend Studio to develop them and from Talend Administration Center to publish, deploy and monitor them. There are different best practices when using Subversion versus Git. The use of either Git or Subversion will determine how your Software Development Life Cycle will look like and what you can achieve as SDLC.
 
-Read the [Why Git and not Subversion?](#Why-Git-and-not-Subversion) section to understand why Talend recommends using Git over Subversion.
+Read the [Why Git and not Subversion?](#why-git-and-not-subversion) section to understand why Talend recommends using Git over Subversion.
 
 ## GIT
 Git was added to Talend fromm  v6.1 and it follows the same workflow as SVN – no advanced GIT functions supported. From
