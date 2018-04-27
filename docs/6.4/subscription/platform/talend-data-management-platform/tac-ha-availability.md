@@ -27,4 +27,4 @@ To read in detail about High Availability please click [link][ha-doc]
 
 <!-- links -->
 [ha-doc]: https://help.talend.com/reader/~KLJE0VIvwYIdHMHvmTVlQ/zK0seROd1hFxvY~F~9EmBw "High Availability Details"
-[ha-setup]: https://help.talend.com/reader/vuI_X~V6unFjTgNxRMPcLw/MEOdB_xT868zSMBXx34mlA?section=sect-install-setting_up_high_availability "Setting up High Availability"
+[ha-setup]: https://help.talend.com/reader/~KLJE0VIvwYIdHMHvmTVlQ/MEOdB_xT868zSMBXx34mlA?section=sect-install-setting_up_high_availability "Setting up High Availability"

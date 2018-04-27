@@ -1,12 +1,12 @@
 ---
 title: "Talend Data Fabric"
 creationDate: "02/27/2018"
-modifieDdate: "02/28/2018"
+modifieDdate: "04/26/2018"
 product: "dataintegration"
 version: "6.4.1"
 reviewer: ""
 lastReviewedDdate: "02/27/2018"
-latest.revision: 1
+latest.revision: 2
 author: "Lokesh"
 ---
 
@@ -59,7 +59,7 @@ Please refer to reference architecture of below solutions for getting the inform
 
 [logical-architecture-details]: https://help.talend.com/reader/zKrcIrF7DfhzhhZznVg~Ww/POSGZaB80V1oY_G_lTyEtA "Talend Data Fabric"
 
-[Logical Architecture]: https://help.talend.com/api/fluidtopicsclient/resources/MkfTXwr0wElt98slxn9TSg/content "Talend Data Fabric"
+[Logical Architecture]: https://help.talend.com/api/fluidtopicsclient/resources/73lYcNo5hJIVifhn94LCLw/content "Talend Data Fabric"
 
 [dm-reference-architecture]: ./../talend-data-management-platform/index.md
 [esb-reference-architecture]: ./../../entry/talend-esb/index.md

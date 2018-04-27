@@ -1,12 +1,12 @@
 ---
 title: "Talend Data Integration"
 creationDate: "02/27/2018"
-modifiedDate: "02/28/2018"
+modifiedDate: "04/26/2018"
 product: "dataintegration"
 version: "6.4.1"
 reviewer: ""
 lastReviewedDate: "02/27/2018"
-latest.revision: 1
+latest.revision: 2
 author: "Lokesh"
 ---
 
@@ -95,7 +95,7 @@ CI Server|Windows/Linux|4 Cores Minimum,8 Cores Recommended|16 GB RAM|300+ GB
 
 <!-- links -->
 [product documentation]: https://help.talend.com/reader/RexlZLQDFJ5kZX15Y4ZebQ/WwuniyNr4hf4hn62WSyQww "Talend Data Integration Installation Guide for Windows"
-[logical-architecture-details]: https://help.talend.com/reader/GU74gVGN97uMH24lnuHZRA/RPC5YthSGbD9HnalsQN_Cg "Talend Data Integration Logical Architecture"
+[logical-architecture-details]: https://help.talend.com/reader/nXPtKhielAtSqFD6_f7~OQ/WwuniyNr4hf4hn62WSyQww "Talend Data Integration Logical Architecture"
 [Java]: ./../../../talend-components/java.md
 [Talend Studio]: ./../../../talend-components/talend-studio.md
 [Talend Metadata Bridge]: ./../../../talend-components/talend-metadata-bridge.md
@@ -111,7 +111,7 @@ CI Server|Windows/Linux|4 Cores Minimum,8 Cores Recommended|16 GB RAM|300+ GB
 [Talend Activity Monitoring Console]: ./../../../talend-components/talend-activity-monitoring-console.md
 [Talend Log Server]: ./../../../talend-components/talend-log-server.md
 
-[Logical Architecture]: https://help.talend.com/api/fluidtopicsclient/resources/KJfR9Z2Gyfr6mybZQ~Aq~w/content "Talend Data Integration Installation Guide for Windows"
+[Logical Architecture]: https://help.talend.com/api/fluidtopicsclient/resources/cdDHY~srerWZK4ptDezsiA/content "Talend Data Integration Installation Guide for Windows"
 
 [di-dev]: ./di-physical-architecture-dev.md
 [di-prod]: ./di-physical-architecture-prod.md 

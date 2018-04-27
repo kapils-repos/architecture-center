@@ -1,12 +1,12 @@
 ---
 title: "Talend Master Data Management Platform (MDM)"
 creationDate: "02/27/2018"
-modifieDdate: "02/28/2018"
+modifieDdate: "04/26/2018"
 product: "dataintegration"
 version: "6.4.1"
 reviewer: ""
 lastReviewedDdate: "02/27/2018"
-latest.revision: 1
+latest.revision: 2
 author: "Lokesh"
 ---
 
@@ -88,8 +88,8 @@ Database Cluster|Depends on database technology, existing volume and rate of gro
 
 <!-- links -->
 
-[logical-architecture-details]: https://help.talend.com/reader/fE51zt3EBkq3lp1Op6DPEw/1qM_P9xV~oTTZ4FkGdO5mw "Talend MDM functional architecture"
-[logical-architecture-picture]: https://help.talend.com/api/fluidtopicsclient/resources/aX1oh5hGe4GF8YrYsBhkZw/content "Talend MDM functional architecture picture"
+[logical-architecture-details]: https://help.talend.com/reader/nuYRviXq8Y02nVMd3jI~UA/H3CnbCOoJWdRL3MZG_a13Q "Talend MDM functional architecture"
+[logical-architecture-picture]: https://help.talend.com/api/fluidtopicsclient/resources/Z97AnDV9Euhy1nEC0BG28A/content "Talend MDM functional architecture picture"
 
 [MDM-Picture]: https://help.talend.com/api/fluidtopicsclient/resources/yOmWawmJThZgatqPm768IQ/content "Talend Enterprise MDM Picture"
 
