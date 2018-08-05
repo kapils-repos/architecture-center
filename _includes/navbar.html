@@ -1,0 +1,48 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bd-navbar">
+  <a class="navbar-brand ml-2" href="https://talendpnp.github.io">
+    <img src="https://www.talend.com/wp-content/uploads/talend_logo_.svg" alt="Talend" title="" style="height: 2rem;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-2">
+        {% assign activestatus = nil %}
+
+        {% assign selectedversion = "Summer '18 - 7.0" %}
+
+        {% if page.url contains "/summer-2017-6.4/" %}
+          {% assign selectedversion = "Summer '17 - 6.4" %}
+          {% assign activestatus = "summer-2017-6.4" %}
+        {% elsif page.url contains "winter-2018-6.5" %}
+          {% assign selectedversion = "Winter '18 - 6.5" %}
+          {% assign activestatus = "winter-2018-6.5" %}
+        {% elsif page.url contains "spring-2018-7.0" %}
+          {% assign selectedversion = "Spring '18 - 7.0" %}
+          {% assign activestatus = "spring-2018-7.0" %}
+        {% elsif page.url contains "summer-2018-7.0" %}
+          {% assign selectedversion = "Summer '18 - 7.0" %}
+          {% assign activestatus = "summer-2018-7.0" %}
+        {% elsif page.url contains "fall-2018-7.1" %}
+          {% assign selectedversion = "Fall '18 - 7.0" %}
+          {% assign activestatus = "fall-2018-7.1" %}
+        {% else %}
+          {% assign selectedversion = "Summer '18 - 7.0" %}
+          {% assign activestatus = "Home" %}
+        {% endif %}
+
+        <li class="nav-item"><a class="nav-link {% if activestatus=="Home" %}active{% endif %}" href="{{site.baseurl}}/"><span class="fas fa-home" aria-hidden="true"></span> Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-item nav-link dropdown-toggle {% if activestatus!="Home" %}active{% endif %}" href="#" id="talend-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fas fa-code-branch" aria-hidden="true"></span> {{selectedversion}}</a>
+            <div class="dropdown-menu" aria-labelledby="talend-versions">
+                  <a class="dropdown-item {% if activestatus=="summer-2018-7.0" %}active{% endif %}" href="{{site.baseurl}}/reference-architecture/summer-2018-7.0/index">Summer '18 - 7.0</a>
+                  <a class="dropdown-item {% if activestatus=="spring-2018-7.0" %}active{% endif %}" href="{{site.baseurl}}/reference-architecture/spring-2018-7.0/index">Spring '18 - 7.0</a>
+                  <a class="dropdown-item {% if activestatus=="winter-2018-6.5" %}active{% endif %}" href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/index">Winter '18 - 6.5</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item {% if activestatus=="summer-2017-6.4" %}active{% endif %}" href="{{site.baseurl}}/reference-architecture/summer-2017-6.4/index">Summer '17 - 6.4</a>
+            </div>
+        </li>
+      </ul>
+    </div>
+</nav>

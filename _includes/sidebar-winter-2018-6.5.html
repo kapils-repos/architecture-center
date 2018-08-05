@@ -1,0 +1,53 @@
+<div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+  <form class="bd-search d-flex align-items-center">
+     <input type="search" class="form-control" id="search-input" placeholder="Search..." aria-label="Search for..." autocomplete="off">
+       <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
+         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>
+         </button>
+ </form>
+ <nav class="collapse bd-links" id="bd-docs-nav">
+   <div class="bd-toc-item {% if page.url == "/reference-architecture/winter-2018-6.5/" %}active{% endif %}">
+     <a class="bd-toc-link " href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/index">Getting started</a>
+     <ul class="nav bd-sidenav pl-3">
+       <li class="{% if page.url == "/reference-architecture/winter-2018-6.5/" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/index">Introduction</a></li>
+     </ul>
+    </div>
+    <div class="bd-toc-item {% if page.url contains "/entry/" or page.url contains "/platform/" %}active{% endif %}">
+      <a class="bd-toc-link" href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/entry/talend-data-integration/index">Products</a>
+      <ul class="nav bd-sidenav pl-3">
+        <li class="{% if page.url contains "talend-data-integration" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/entry/talend-data-integration/index">Data Integration</a></li>
+        <li class="{% if page.url contains "talend-big-data" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/entry/talend-big-data/index">Big Data</a></li>
+        <li class="{% if page.url contains "talend-esb" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/entry/talend-esb/index">Enterprise Service Bus</a></li>
+        <li class="{% if page.url contains "talend-data-management-platform" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/platform/talend-data-management-platform/index">Data Management Platform</a></li>
+        <li class="{% if page.url contains "talend-big-data-platform" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/platform/talend-big-data-platform/index">Big Data Platform</a></li>
+        <li class="{% if page.url contains "talend-data-services-platform" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/platform/talend-data-services-platform/index">Data Services Platform</a></li>
+        <li class="{% if page.url contains "talend-real-time-big-data-platform" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/platform/talend-real-time-big-data-platform/index">Real Time Big Data Platform</a></li>
+        <li class="{% if page.url contains "talend-mdm-platform" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/platform/talend-mdm-platform/index">Master Data Management Platform</a></li>
+        <li class="{% if page.url contains "talend-data-fabric" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/platform/talend-data-fabric/index">Data Fabric</a></li>
+      </ul>
+     </div>
+     <div class="bd-toc-item {% if page.url contains "/talend-cloud/" %}active{% endif %}">
+       <a class="bd-toc-link" href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/talend-cloud/integration-cloud/index">Talend Cloud</a>
+       <ul class="nav bd-sidenav pl-3">
+         <li class="{% if page.url contains "integration-cloud" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/products/commercial/talend-cloud/integration-cloud/index">Integration Cloud</a></li>
+       </ul>
+     </div>
+     <div class="bd-toc-item {% if page.url contains "/talend-components/" %}active{% endif %}">
+       <a class="bd-toc-link" href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/talend-studio">Core Components</a>
+       <ul class="nav bd-sidenav pl-3">
+         <li class="{% if page.url contains "talend-studio" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/talend-studio">Talend Studio</a></li>
+         <li class="{% if page.url contains "talend-data-mapper" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/talend-data-mapper">Talend Data Mapper</a></li>
+         <li class="{% if page.url contains "talend-metadata-bridge" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/talend-metadata-bridge">Talend Metadata Bridge</a></li>
+         <li class="{% if page.url contains "talend-sap-rfc-server" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/talend-sap-rfc-server">Talend SAP RFC Server</a></li>
+         <li class="{% if page.url contains "talend-administration-center" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/talend-administration-center">Talend Administation Center (TAC)</a></li>
+         <li class="{% if page.url contains "metadata-repository" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/metadata-repository">Metadata Repository: Subversion or GIT</a></li>
+         <li class="{% if page.url contains "artifact-repository" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/artifact-repository">Artifact Repository</a></li>
+         <li class="{% if page.url contains "command-line" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/command-line">CommandLine</a></li>
+         <li class="{% if page.url contains "job-server" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/job-server">JobServer</a></li>
+         <li class="{% if page.url contains "talend-ci-builder" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/talend-ci-builder">Talend CI Builder</a></li>
+         <li class="{% if page.url contains "talend-activity-monitoring-console" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/talend-activity-monitoring-console">Talend Activity Monitoring Console</a></li>
+         <li class="{% if page.url contains "talend-log-server" %}active{% endif %}"><a href="{{site.baseurl}}/reference-architecture/winter-2018-6.5/talend-components/talend-log-server">Talend Log Server</a></li>
+       </ul>
+      </div>
+  </nav>
+</div>

@@ -1,0 +1,25 @@
+# Site settings
+title: Talend Patterns & Practices
+#
+# Optional subtitle that will show next to your main title
+#
+subtitle: Talend Patterns & Practices
+
+#
+# Change this to your project's github name
+#
+baseurl: /architecture-center
+email: support@talend.com
+description: "Talend Technical Reference Architecture"
+copyright: "&copy; Talend Inc. (HQ),<br> 800 Bridge Parkway ,Suite 200,<br> Redwood City,California 94065,United States,<br> Tel: +1 (650) 539 3200"
+# Build settings
+# No need to edit below this
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+description: Reference Architecture, Architecture Styles, Design Patterns, Best Practices and sample code for Talend Products
