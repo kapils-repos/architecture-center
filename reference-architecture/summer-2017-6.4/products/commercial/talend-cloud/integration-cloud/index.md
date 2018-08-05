@@ -23,7 +23,7 @@ The Logical Architecture give us a high level view of various components that ma
 
 ![alt text][Logical Architecture]
 
-For more details on the individual components of Logical Architecture please refer For more details on the individual components of Logical Architecture please refer <a href="https://help.talend.com/reader/xMKe8U4ggRRAlmi97fpXxg/AUsVGExbYMAX_kDGRskD6w" target="_blank">Talend Help documentation</a>. 
+For more details on the individual components of Logical Architecture please refer For more details on the individual components of Logical Architecture please refer <a href="https://help.talend.com/reader/xMKe8U4ggRRAlmi97fpXxg/AUsVGExbYMAX_kDGRskD6w" target="_blank">Talend Help documentation</a>.
 
 ## Physical Reference Architecture
 
@@ -61,6 +61,6 @@ Git Server (Better in Saas Mode)|Windows/Linux|4 Cores Minimum|8 GB RAM Minimum|
 <!-- links -->
 
 [Logical Architecture]: https://help.talend.com/api/fluidtopicsclient/resources/aZcggahzbsJ7hCacqBNnog/content "Talend Integration Cloud"
-
+{:.img-fluid}
 [tc-dev]: ./tc-physical-reference-architecture-dev
 [tc-prod]: ./tc-physical-reference-architecture-prod

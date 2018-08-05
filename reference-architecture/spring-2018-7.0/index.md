@@ -39,4 +39,4 @@ To learn more about the components and architecture of the commercial products, 
 [talend-mdm-platform]: ./products/commercial/platform/talend-mdm-platform/index
 [talend-real-time-big-data-platform]: ./products/commercial/platform/talend-real-time-big-data-platform/index
 
-[talend-cloud]: ./products/commercial/talend-cloud/index
+[talend-cloud]: ./products/commercial/talend-cloud/integration-cloud/index
