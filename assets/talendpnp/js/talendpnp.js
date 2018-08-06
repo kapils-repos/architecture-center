@@ -142,12 +142,9 @@
         debug: false
     })*/
     window.docsearch({
-        apiKey: "84a842b8b455d815418efc48591c5856",
-        indexName: "ArcCenter",
-        inputSelector: "#search-input",
-        algoliaOptions: {
-            facetFilters: ["lang:en"]
-        },
-        debug: true
+        apiKey: 'f890a852c7730df62d03a01d057db947',
+        indexName: 'talend',
+        inputSelector: '#search-input',
+        debug: true // Set debug to true if you want to inspect the dropdown
     })
 })();
