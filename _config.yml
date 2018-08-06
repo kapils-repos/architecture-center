@@ -16,6 +16,10 @@ copyright: "&copy; Talend Inc. (HQ),<br> 800 Bridge Parkway ,Suite 200,<br> Redw
 # No need to edit below this
 markdown: kramdown
 
+algolia:
+  application_id: "M2RLBC12RZ"
+  index_name: "ArcCenter"
+
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
