@@ -22,5 +22,5 @@ author: "Lokesh"
 - Code promotion is done via pipelines
 
 <!-- links -->
-[0]: ./../../../resources/images/talend-cloud/tc-prod.png "Talend Integration Cloud for Development"
-[tc-Architecture-prod]: ./../../../resources/visio/tc-architecture/talend-cloud-physical-architecture-7.0.vsdx
+[0]: ./../../../../resources/images/talend-cloud/tc-prod.png "Talend Integration Cloud for Development"
+[tc-Architecture-prod]: ./../../../../resources/visio/tc-architecture/talend-cloud-physical-architecture-7.0.vsdx
