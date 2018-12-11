@@ -29,7 +29,7 @@ author: "Lokesh"
 - Only Nexus Releases and Snapshots repositories are accessible to TEST and PRE-PROD environments.
 - Only Releases repository is accessible from PROD environment.
 - Nexus access can be controlled by user privileges and firewall/proxy.
-- Continous Integration can be setup if going with Advanced setup
+- Continous Integration can be setup if going with Advanced setup.
 
 <!-- links -->
 [vd-DI-7.0-prod-Simple]: ./../../../../resources/visio/di-architecture/data-integration-deployment-architecture-7.0.vsdx
